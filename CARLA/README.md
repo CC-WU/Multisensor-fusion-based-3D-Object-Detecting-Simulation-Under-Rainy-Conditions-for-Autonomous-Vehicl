@@ -1,3 +1,6 @@
+** 取代
+./CARLA/WindowsNoEditor/PythonAPI/examples
+
 ** 天氣: 自動變化
 ```
 python dynamic_weather.py
