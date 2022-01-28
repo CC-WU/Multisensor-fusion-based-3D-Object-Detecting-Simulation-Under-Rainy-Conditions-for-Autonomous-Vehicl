@@ -2,6 +2,7 @@
 
 After creating a ros working space, replace the src folder with the src folder here. Note that you may re-run ```catkin_make``` command to make sure caches being created properly.
 Please install the required packages listed in *requirements.txt* first.
+Please follow the instructions [here](https://carla.readthedocs.io/projects/ros-bridge/en/latest/ros_installation_ros1/) to download ```ros-bridge``` first. I used its source repo (i.e. method B).
 The working space directory should be placed under *PythonAPI* directory(i.e. same folder as *examples* is).
 
 ## packages
@@ -18,3 +19,7 @@ Note that ```collect.launch``` will execute some nodes here. ```img_subs.py``` a
 
 ## How to Use
 After execute ```CarlaUE4.sh```, execute ```roslaunch main main``` to initialize ego vehicle; execute ```roslaunch main collect``` to collect PCL and image received from the sensor.
+
+## Reference
+1. [ROS Bridge](https://carla.readthedocs.io/projects/ros-bridge/en/latest/ros_installation_ros1/)
+2. [ROS Launch](https://ithelp.ithome.com.tw/articles/10209542)
