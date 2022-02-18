@@ -1,28 +1,30 @@
-**取代** <br/>
+Version: CARLA 0.9.12
+
+**Replace** <br/>
 ./CARLA/WindowsNoEditor/PythonAPI/examples
 
-**天氣: 自動變化** 
+**Weather: Automatically Change** 
 ```
 python dynamic_weather.py
 ```
 
-**天氣: 雨天**
+**Weather: Rainy**
 ```
 python static_weather.py
 ```
 
-**開啟相機**
+**Turn on the Camera**
 ```
 python lidar_to_camera.py
 ```
 
-**自動收集資料**
+**Automatic Data Collection**
 ```
 python lidar_to_camera.py
 python automatic_control_camera_autorecord.py
 ```
 
-**手動收集資料**
+**Collect Data Manually**
 ```
 python lidar_to_camera.py
 python manual_control.py
